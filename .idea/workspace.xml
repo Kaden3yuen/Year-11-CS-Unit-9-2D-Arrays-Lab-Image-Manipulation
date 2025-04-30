@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65557ac9-effe-4032-98d9-b67ae953d01e" name="Changes" comment="Added APImage, ImageFieFilter, ImagePanel, and Pixel classes.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="65557ac9-effe-4032-98d9-b67ae953d01e" name="Changes" comment="finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/ImageManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/ImageManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/APImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/APImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/ImageFileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/ImageFileFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/ImagePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,24 +26,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Kaden3yuen"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kaden3yuen&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kaden3yuen/Year-11-CS-Unit-9-2D-Arrays-Lab-Image-Manipulation",
-    "accountId": "6e59264b-45a6-4bdf-9ca4-d05fa3350611"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kaden3yuen/Year-11-CS-Unit-9-2D-Arrays-Lab-Image-Manipulation&quot;,
+    &quot;accountId&quot;: &quot;6e59264b-45a6-4bdf-9ca4-d05fa3350611&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2MM3ocmtvGquyyyxcR5qJ1Cw3R5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +52,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ImageManipulation.executor": "Run",
+    "Application.MathStuff.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -68,7 +73,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathStuff">
+  <component name="RunManager" selected="Application.ImageManipulation">
     <configuration name="ImageManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.ImageManipulation" />
       <module name="Year-11-CS-Unit-8-2D-Arrays-Lab-Image-Manipulation" />
@@ -92,9 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImageManipulation" />
         <item itemvalue="Application.MathStuff" />
         <item itemvalue="Application.Vehicle" />
-        <item itemvalue="Application.ImageManipulation" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1678174941477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished">
+      <option name="closed" value="true" />
+      <created>1743131699477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743131699477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added method stubs in ImageManipulation class." />
     <MESSAGE value="Added APImage, ImageFieFilter, ImagePanel, and Pixel classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added APImage, ImageFieFilter, ImagePanel, and Pixel classes." />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
 </project>
